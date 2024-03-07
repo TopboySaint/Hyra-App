@@ -121,3 +121,52 @@
     font-weight: 500;
     font-family: "Times New Roman" serif;
   }
+
+  .teach{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    padding-top: 140px;
+    border: 1px solid #0802a3;
+  }
+
+  .teach2{
+    width: 350px;
+    height: 300px;
+    padding-top: 140px;
+    border-radius: 10px;
+    border: 1px solid #ff7676;
+  }
+
+  .teach3{
+    width: 350px;
+    height: 300px;
+    padding-top: 140px;
+    border-radius: 10px;
+    border: 1px solid  #ff4b91;
+  }
+
+  .pillar{
+    color:#4F0101;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Times New Roman" serif;
+  }
+
+  .bttn3 {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: #0802a3;
+    font-family: "Times New Roman" serif;
+    border: 2px solid #0802a3;
+  }
+
+  .twoo{
+    width: 200px;
+    border: 2px solid green;
+    height: 500px;
+  }
