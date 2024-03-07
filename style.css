@@ -166,9 +166,7 @@
   }
 
   .twoo{
-    /* width: 200px; */
-    border: 2px solid green;
-    height: 400px;
+    height: 430px;
   }
 .pink{
     background: #ff4b91;
@@ -188,5 +186,6 @@
     color: #ff4b91;
     background: #fff;
     font-family: "Times New Roman" serif;
-    /* border: 2px solid #0802a3; */
+    border: none;
+    margin-left: 70px;
   }
