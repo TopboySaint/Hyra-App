@@ -1,12 +1,16 @@
-body::-webkit-scrollbar{
+body{
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
   width: 8px;
 }
 
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
   background: #ffcd4b;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background: #0802a3;
 }
 
@@ -72,7 +76,6 @@ body::-webkit-scrollbar-thumb{
   font-size: 40px;
   font-weight: 700;
   padding: 20px;
-  /* padding-right: 50px; */
   font-family: "Times New Roman" serif;
 }
 
@@ -93,6 +96,7 @@ body::-webkit-scrollbar-thumb{
 .flexer {
   gap: 100px;
 }
+
 .boxes {
   height: 350px;
   width: 200px;
@@ -178,18 +182,17 @@ body::-webkit-scrollbar-thumb{
   border: 2px solid #0802a3;
 }
 
-.twoo {
-  /* height: 430px; */
-}
 .pink {
   background: #ff4b91;
 }
+
 .pill {
   color: #fff;
   font-size: 32px;
   font-weight: 500;
   font-family: "Times New Roman" serif;
 }
+
 .bttn4 {
   width: 200px;
   padding: 8px;
@@ -203,7 +206,7 @@ body::-webkit-scrollbar-thumb{
   margin-left: 70px;
 }
 
-.copyright{
+.copyright {
   background: #0802a3;
   border: 1px solid #0802a3;
 }
