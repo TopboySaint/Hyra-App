@@ -1,3 +1,15 @@
+body::-webkit-scrollbar{
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track{
+  background: #ffcd4b;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #0802a3;
+}
+
 .navbardivs h3 {
   color: #0802a3;
   font-size: 32px;
@@ -27,7 +39,10 @@
 
 .nav {
   background: #f8f9fa;
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  padding-top: 5px;
+  box-shadow: 0px 0px 10px 0px gray;
 }
 
 #bttn1:hover {
@@ -75,117 +90,120 @@
   font-family: "Times New Roman" serif;
 }
 
-
-.flexer{ 
-    gap: 100px;
+.flexer {
+  gap: 100px;
 }
-.boxes{
-    height: 350px;
-    width: 200px;
-    background: #0802a3;
-    border-radius: 15px;
-
+.boxes {
+  height: 350px;
+  width: 200px;
+  background: #0802a3;
+  border-radius: 15px;
 }
 
-.boxes2{
-    height: 350px;
-    width: 200px;
-    background: #ff7676;
-    border-radius: 15px;
+.boxes2 {
+  height: 350px;
+  width: 200px;
+  background: #ff7676;
+  border-radius: 15px;
 }
 
-.boxes3{
-    height: 350px;
-    width: 200px;
-    background: #ff4b91;
-    border-radius: 15px;
+.boxes3 {
+  height: 350px;
+  width: 200px;
+  background: #ff4b91;
+  border-radius: 15px;
 }
 
-.boxes4{
-    height: 350px;
-    width: 200px;
-    background: #ffcd4b;
-    border-radius: 15px;
+.boxes4 {
+  height: 350px;
+  width: 200px;
+  background: #ffcd4b;
+  border-radius: 15px;
 }
 
-.lilimg{
-    width: 130px;
-    height: 130px;
-    display: block;
-    margin: auto;
+.lilimg {
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin: auto;
 }
 
 .para3 {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Times New Roman" serif;
-  }
-
-  .teach{
-    width: 350px;
-    height: 300px;
-    border-radius: 10px;
-    padding-top: 140px;
-    border: 1px solid #0802a3;
-  }
-
-  .teach2{
-    width: 350px;
-    height: 300px;
-    padding-top: 140px;
-    border-radius: 10px;
-    border: 1px solid #ff7676;
-  }
-
-  .teach3{
-    width: 350px;
-    height: 300px;
-    padding-top: 140px;
-    border-radius: 10px;
-    border: 1px solid  #ff4b91;
-  }
-
-  .pillar{
-    color:#4F0101;
-    font-size: 32px;
-    font-weight: 700;
-    font-family: "Times New Roman" serif;
-  }
-
-  .bttn3 {
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    background: #0802a3;
-    font-family: "Times New Roman" serif;
-    border: 2px solid #0802a3;
-  }
-
-  .twoo{
-    height: 430px;
-  }
-.pink{
-    background: #ff4b91;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Times New Roman" serif;
 }
-  .pill{
-    color:#fff;
-    font-size: 32px;
-    font-weight: 500;
-    font-family: "Times New Roman" serif;
-  }
-  .bttn4{
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 700;
-    color: #ff4b91;
-    background: #fff;
-    font-family: "Times New Roman" serif;
-    border: none;
-    margin-left: 70px;
-  }
+
+.teach {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  padding-top: 140px;
+  border: 1px solid #0802a3;
+}
+
+.teach2 {
+  width: 350px;
+  height: 300px;
+  padding-top: 140px;
+  border-radius: 10px;
+  border: 1px solid #ff7676;
+}
+
+.teach3 {
+  width: 350px;
+  height: 300px;
+  padding-top: 140px;
+  border-radius: 10px;
+  border: 1px solid #ff4b91;
+}
+
+.pillar {
+  color: #4f0101;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Times New Roman" serif;
+}
+
+.bttn3 {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background: #0802a3;
+  font-family: "Times New Roman" serif;
+  border: 2px solid #0802a3;
+}
+
+.twoo {
+  /* height: 430px; */
+}
+.pink {
+  background: #ff4b91;
+}
+.pill {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Times New Roman" serif;
+}
+.bttn4 {
+  width: 200px;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff4b91;
+  background: #fff;
+  font-family: "Times New Roman" serif;
+  border: none;
+  margin-left: 70px;
+}
+
+.copyright{
+  background: #0802a3;
+  border: 1px solid #0802a3;
+}
